@@ -1,0 +1,1 @@
+alert("Witaj na Sneaker And Clothes Shop! Kod ZIMA2023 obowiązuje do 31.12.2023, kod nie sumuję się z innymi kodami rabatowymi, dotyczy jednego wybranego produktu od 500zł")
