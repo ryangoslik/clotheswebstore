@@ -119,51 +119,92 @@ hr{
 }
 
 .samba{
+    justify-content: center;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    border-bottom: solid 1px grey;
-    border-right: solid 1px grey;
     
 }
-.przycisk{
-    padding-bottom: 5%;
-    padding-right: 5%;
-   display: flex;
-    justify-content: end;
-}
-button{
-    font-family: 'raleway';
-    border-radius: 5px;
-    border: solid 1px black;
-    background-color: white;
-}
-button:active{
-    background-color: grey;
-}
+
 .heroleft2 h2{
     padding-left: 10px;
 }
 .heroleft2 h4{
+    margin-top: -10px;
+    font-size: 20px;
     padding-left: 10px;
 }
-.samba1{
-    padding-right: 1px;
-    width: 100%;
-display: block;
-border-right: solid 1px black;
-}
-.samba2{
-    width: 100%;
-display: block;
-}
-.heroleft2{
-    padding-left: 1px;
-    margin-right: 5%;
-    width: 50%;
+.shoe{
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 22%;
 }
 .heroleft2 img{
-
-    display:inline-table;
     max-width:100%;
    
+}
+
+.h{
+    width: 100%;
+}
+.h:hover{
+    border: solid 1px black;
+}
+.welcome{
+    padding-left: 5%;
+    width: 100%;
+    font-size: 50px;
+    
+}
+.hero1{
+    max-width: 1920px;
+    margin: 0 5% 0 5%;
+    
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.heromain{
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 10%;
+    padding-right: 10%;
+}
+.heromain img{
+    max-width: 100%;
+}
+.shoe2{
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 15%;
+}
+.title{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-right: 5%;
+}
+.shoe2 h2{
+    text-align: center;
+}
+button{
+    width: 30%;
+    margin-top: 1%;
+    margin-right: 2%;
+    background-color: white;
+    font-family: raleway;
+    padding:2%;
+    border: solid 1px black;
+}
+button:active{
+    background-color: grey;
 }
